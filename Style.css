@@ -1,0 +1,156 @@
+*{
+    margin:0px;
+padding:0px;
+}
+
+
+.firstdiv{
+     background-color: rgba(255, 99, 71, 0.1); 
+
+}
+body {
+    display: block;
+    margin: 0px;
+}
+
+
+.navbaar{
+    width:full;
+height:80px;
+
+
+}
+.Ourlinks{
+    text-align:center;
+    padding-left:350px;
+    
+}
+
+.mylist{
+    list-style:none;
+    margin:30px 10px;
+    float:left;
+}
+
+ .mylink{
+    text-decoration:none;
+}
+
+
+.icons i{
+    padding:20px;
+    margin:2px;
+font-size:25px;
+}
+
+.logo{
+    height:5px;
+    width:5px;
+    color:black;
+    
+}
+.container{
+    margin-left:100px;
+}
+
+.hero {
+ padding: 50px 20px;
+margin-left:10px;
+
+}
+.tag1{
+    color: rgb(235, 143, 52);
+font-size:40px;
+}
+.tag2{
+    color:black;
+    font-size:60px;
+}
+.tag3{
+    font-size:20px;
+    color:black;
+}
+
+.campaign {
+    /* display: flex; */
+    /* justify-content: left; */
+    margin:10px;
+    padding: 50px 20px;
+}
+
+.campaign-info {
+margin-left:25px;
+font-size:20px;
+}
+
+.campaign-image img {
+    max-width: 150px;
+    border-radius: 8px;
+}
+
+.imgcont {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.images-container {
+    
+    /* display:flex; */
+    /* align-items: right;
+    margin-bottom: 20px; */
+}
+
+.image-wrapper {
+    position: relative;
+    margin: 0 10px;
+}
+
+.image1, .image2 {
+    border-radius: 50%;
+}
+
+.image1 {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.image2 {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+}
+
+
+
+.volunteer-info p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.volunteer-info .profile-pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.volunteer-info .profile-pics img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+    object-fit: cover;
+}
+.heropge{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+
+}
